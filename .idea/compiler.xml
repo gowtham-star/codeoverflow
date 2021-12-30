@@ -10,9 +10,13 @@
         <module name="votes-view-service" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="11" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
       <module name="query-service" options="-parameters" />
       <module name="votes-view-service" options="-parameters" />
     </option>
