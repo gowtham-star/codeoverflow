@@ -8,6 +8,7 @@ public class VotesViewServiceApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(VotesViewServiceApplication.class, args);
+		System.out.println("votesViewService is Running ...");
 	}
 
 }
